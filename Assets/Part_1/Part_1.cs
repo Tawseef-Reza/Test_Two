@@ -9,7 +9,7 @@ public class Part_1 : MonoBehaviour
     void Start()
     {
         //Example ==============================================
-        //Question: What is the value of a? 
+        //Question: What is the value of b? 
 
         int b = 0;
 
@@ -26,8 +26,8 @@ public class Part_1 : MonoBehaviour
         y = 10 + 5;
         z /= 10;
         x += y + z;
-
-        // Answer: x = 
+        
+        // Answer: x = 16
         //=====================================================
 
         //Part 2 (1pt) ==============================================
@@ -37,8 +37,8 @@ public class Part_1 : MonoBehaviour
         x = 144 / 12;
         y = 48 / 4;
         isTrue = x == y;
-
-        // Answer: isTrue = 
+        
+        // Answer: isTrue = true
         //=====================================================
 
         //Part 3 (1pt) ==============================================
@@ -49,8 +49,8 @@ public class Part_1 : MonoBehaviour
         {
             x += i;
         }
-
-        // Answer: x = 
+        
+        // Answer: x = 45
         //=====================================================
 
         //Part 4 (1pt) ==============================================
@@ -78,20 +78,21 @@ public class Part_1 : MonoBehaviour
         {
             x = 5;
         }
-
-        // Answer: x = 
+        
+        // Answer: x = 3
         //=====================================================
 
         //Part 5 (1pt) ==============================================
         //Question: What is the restult of this for loop? 
-
+        
         int[] a = new int[3] { 1, 3, 5 };
         for (int i = 0; i < 10; i++)
         {
             a[i] = i;
         }
-
-        // Answer: 
+        
+        // Answer: There will be an error since the index will be out of bounds for the array.
+        // The array is only 3 long but the for loop tries to add up to an index of 9.
         //=====================================================
 
     }
